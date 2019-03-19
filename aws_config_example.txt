@@ -1,0 +1,21 @@
+[default]
+region = us-east-1
+output = json
+
+[profile "Netflix - Production"]
+role_arn = arn:aws:iam::676664958782:role/MyCrossAccountRole
+source_profile = default
+region = us-east-1
+output = json
+
+[profile "Google - Production"]
+role_arn = arn:aws:iam::962993494373:role/MyCrossAccountRole
+source_profile = default
+region = us-east-1
+output = json
+
+[profile "Recipe for Dr. Pepper - Production"]
+role_arn = arn:aws:iam::749894394124:role/MyCrossAccountRole
+source_profile = default
+region = us-east-1
+output = json
